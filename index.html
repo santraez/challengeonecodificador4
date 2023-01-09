@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alura challenge desafio de logica">
+    <title>Alura Challenge | Desafío 1</title>
+    <link rel="icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="body__container">
+    <header class="header__container">
+      <img src="./img/logo.png" alt="alura logo">
+    </header>
+    <main class="main__container">
+      <textarea name="" id="inputText" spellcheck="false" data-placeholder="Ingrese el texto aqui"></textarea>
+      <div class="main__button--container">
+        <p>Solo letras minusculas y sin acentos</p>
+        <div class="main__button">
+          <button id="encryptButton">Encriptar</button>
+          <button id="decryptButton">Desencriptar</button>
+        </div>
+      </div>
+    </main>
+    <aside class="aside__container">
+      <div class="aside-one">
+        <img src="./img/muñeco.png" alt="">
+        <h3>Ningún mensaje fue encontrado</h3>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <div class="aside-two display-none">
+        <p id="outputText"></p>
+        <div class="aside-two__button">
+          <p class="display-none" id="copied">Texto Copiado!</p>
+          <button id="copyButton">Copiar</button>
+        </div>
+      </div>
+    </aside>
+    <script src="app.js"></script>
+  </body>
+</html>
